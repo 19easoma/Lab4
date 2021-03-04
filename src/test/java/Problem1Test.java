@@ -13,14 +13,13 @@ import static org.junit.jupiter.api.Assertions.*;
  */
 public class Problem1Test {
     
-    public Problem1Test() {
-    }
-
     @Test
     public void testCalculateInsurance() {
         System.out.println("calculateInsurance");
         int userAge = 33;
-        Problem1.calculateInsurance(userAge);
+        int expResult = 465;
+        int result = Problem1.calculateInsurance(userAge);
+        assertEquals(expResult, result);
     }
     
 }

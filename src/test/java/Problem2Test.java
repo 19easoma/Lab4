@@ -13,11 +13,8 @@ import static org.junit.jupiter.api.Assertions.*;
  */
 public class Problem2Test {
     
-    public Problem2Test() {
-    }
-    
     @Test
-    public void testCalculateBankCharges() {
+    public void testCalculateBankCharges1() {
         System.out.println("calculateBankCharges");
         double numChecks = 10.0;
         double expResult = 11.0;

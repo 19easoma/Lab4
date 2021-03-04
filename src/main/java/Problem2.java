@@ -23,8 +23,8 @@ class Problem2 {
   public static double calculateBankCharges(double numChecks) {
     
     double baseFee = 10;
-    double finalCharge = 0;
-    double checkFee = 0;
+    double finalCharge;
+    double checkFee;
     
     if (numChecks < 20) {
       checkFee = 0.10;

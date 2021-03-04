@@ -19,9 +19,10 @@ class Problem1 {
     calculateInsurance(userAge);
   }
   
-  public static void calculateInsurance(int userAge) {
+  public static int calculateInsurance(int userAge) {
     int estInsurance = (5 * userAge) + 300;
     System.out.println("At " + userAge + " years old, the estimated payment for life insurance would be $" + estInsurance + " per year.");
+    return estInsurance;
   }
 }
 
